@@ -6,7 +6,7 @@ on:
       - master
   schedule:
     - cron: '30 23 * * *'
-  workflow_disapatch:
+  workflow_dispatch:
 
 jobs:
   checkin:
